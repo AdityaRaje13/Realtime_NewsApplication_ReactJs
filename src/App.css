@@ -1,0 +1,88 @@
+body
+{
+  box-sizing: border-box;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  background-color: rgb(227, 255, 255);
+}
+
+.badge
+{
+  left: 85%;
+}
+
+.hero
+{
+  display: flex;
+  gap: 20px;
+  padding: 0px 10px;
+}
+
+.navbar
+{
+  box-shadow: 0 0 10px black;
+}
+
+.newscard
+{
+  height: 500px;
+  box-shadow: 0 0 7px black;
+  border: none;
+  border-radius: 10px;
+}
+
+.newscard img:hover
+{ 
+  transform: scale(1.1);
+  transition: 0.7s all ease;
+}
+
+.News-container
+{
+  margin: auto auto;
+}
+
+.display-weather
+{
+  padding: 30px 20px;
+  margin-top: 20px;
+  background: rgb(204, 204, 204) ;
+  border: 1px rgb(68, 66, 66) solid; 
+  border-radius: 20px;
+  box-shadow: 0 0 8px black;
+}
+
+.display-news
+{
+  border: 1px rgb(68, 66, 66) solid;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 8px black;
+}
+
+.weather-card
+{
+  background-color: white;
+}
+
+.navbar-nav li
+{
+  background-color: rgb(27, 184, 184);
+  margin: 0px 10px;
+  padding: 2px 10px;
+  border-radius: 25px;
+  font-weight: 400;
+  border: none;
+}
+
+.navbar-nav li:hover
+{
+  opacity: 0.8;
+  transition: 0.3s background ease-in;
+}
+
+.navbar-nav li :focus {
+  font-weight: bold; /* For example, make the font bold */
+  text-decoration: underline;
+}
